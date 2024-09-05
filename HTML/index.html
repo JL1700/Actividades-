@@ -4,41 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Timmana&display=swap" rel="stylesheet">
     <title>Mi Pagina Wed</title>
 </head>
+
 <body>
-<header>
-<img src="./logos/Preview.png" alt="Hola por si no te carga esta imagen soy un logo">
+
+    <header>
+
+        <img src="./logos/Preview.png" alt="Hola por si no te carga esta imagen soy un logo">    
+
+    </header>
+
+    <main> 
     
-</header>
-<main> 
-    <hr>
-<h1>Este Es Un Formulario Basico Para La Actividad De Henry</h1>
-<form>
- <input type="text" placeholder="Nombre">
- <input type="email" placeholder="Correo">
- <input type="password" placeholder="Contraseña">
-</form>
-<hr>
-<h2>Esta es una lista de super</h2>
-<ol>
-    <li>Carne</li>
-    <li>Tomate </li>
-    <li>Cebolla</li>
-    <li>Aceite</li>
-</ol>
-<hr>
-<h2>Esta una lista de cosas</h2>
-<ul>
-    <li>tasa</li>
-    <li>copa</li>
-    <li>corona</li>
-    <li>cuchara</li>
-</ul>
-</main>
-<hr>
-<footer>
-    <p>Este parrafo es una pequeña fraccion de texto <span>(hola soy un span dentro del parrafo)</span> plano</p>
-</footer>
+        <div class="formulario">
+    
+            <h1>Este Es Un Formulario Basico Para La Actividad De Henry</h1>
+
+            <form class="inputs">
+                <label for="text">Nombre</label>
+                <input type="text" >
+                <label for="email">Email</label>
+                <input type="email" >
+                <label for="Contraseña">Contraseña</label>
+                <input type="password">
+                <button> <a href="">Enviar</a> </button>
+            </form>
+
+        </div>
+
+    <div class="card">
+
+        <h2>Esta es una lista de super</h2>
+    <ol>
+        <li>Carne</li>
+        <li>Tomate </li>
+        <li>Cebolla</li>
+        <li>Aceite</li>
+    </ol>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Esta una lista de cosas</h2>
+        <ul>
+            <li>tasa</li>
+            <li>copa</li>
+            <li>corona</li>
+            <li>cuchara</li>
+        </ul>
+    </div>
+
+    </main>
+    
+
+    <footer class="footer">
+        <p>Este parrafo es una pequeña fraccion de texto <span>(hola soy un span dentro del parrafo)</span> plano</p>
+        
+        <h3>Informacion Personal</h3>
+        <p>Jose Luis Criollo</p>
+        <p>Soy estudiante de henry</p>
+        <p>tengo 23 años</p>
+        <p>me gusta mucho el desarrollo web y en el futuro me gustaria trabajar en gran compañia de desarrollo web o trabajar para una empresana nacional o internacional. me gusta crear paginas y estilisarlas me gusta tambien mucho el back-end.
+</p>
+    </footer>
+
 </body>
+
 </html>

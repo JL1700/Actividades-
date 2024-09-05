@@ -1,0 +1,107 @@
+
+body {
+    font-family: "Timmana", sans-serif ;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #337979;
+}
+
+header img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 120px;    
+}
+
+.formulario {
+
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.inputs  {
+ display: flex;
+ flex-direction: column; 
+ justify-content: center;
+}
+
+.inputs label {
+    font-size: 2rem;
+}
+
+.inputs input {
+    text-align: center;
+    font-size: 1.8rem;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1e3845;
+    color: white;
+}
+
+.inputs button {
+    margin: auto;
+    width: 110px;
+    height: 50px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    background-color: #4b6b6a;
+    border-radius: 10px;
+}
+
+.inputs a {
+    text-decoration: none;
+    color: white;
+}
+
+.card {
+    background-color: #1e3845;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.card h2 {
+    color: white;
+    text-align: center;
+}
+
+.card ol li {
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+}
+
+.card ul li{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+}
+
+footer p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    text-align: center;
+}
+
+footer h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    height: 50px;
+    text-align: center;
+}
